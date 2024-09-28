@@ -1,0 +1,30 @@
+{
+    "event": {
+        "name": "Global Music Festival",
+        "date": "2024-08-10",
+        "location": {
+            "city": "Tokyo",
+            "country": "Japan",
+            "venue": {
+                "name": "Tokyo Dome",
+                "capacity": 55000
+            }
+        },
+        "performances": {
+            "headliner": {
+                "artist": "Imagine Dragons",
+                "genre": "Rock"
+            },
+            "supporting": {
+                "first": {
+                    "artist": "Twice",
+                    "genre": "K-Pop"
+                },
+                "second": {
+                    "artist": "Alt-J",
+                    "genre": "Indie Rock"
+                }
+            }
+        }
+    }
+}

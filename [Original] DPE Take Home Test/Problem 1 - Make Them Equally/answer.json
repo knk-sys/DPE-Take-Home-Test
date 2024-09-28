@@ -1,0 +1,37 @@
+[
+    {
+        "operation": "add_new_key",
+        "value": {
+            "date": "2024-08-10"
+        },
+        "parent_key": ["event"],
+        "after_key": "name"
+    },
+    {
+        "operation": "modify_value",
+        "value": {
+            "country": "Japan"
+        },
+        "parent_key": ["event", "location"],
+        "after_key": "city"
+    },
+    {
+        "operation": "add_new_key",
+        "value": {
+            "venue": {
+                "name": "Tokyo Dome",
+                "capacity": 55000
+            }
+        },
+        "parent_key": ["event", "location"],
+        "after_key": "country"
+    },
+    {
+        "operation": "add_new_key",
+        "value": {
+            "artist": "Alt-J"
+        },
+        "parent_key": ["event", "performances", "supporting", "second"],
+        "after_key": null
+    }
+]

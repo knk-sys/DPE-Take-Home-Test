@@ -1,0 +1,24 @@
+{
+    "event": {
+        "name": "Global Music Festival",
+        "location": {
+            "city": "Tokyo",
+            "country": "Hokkaido"
+        },
+        "performances": {
+            "headliner": {
+                "artist": "Imagine Dragons",
+                "genre": "Rock"
+            },
+            "supporting": {
+                "first": {
+                    "artist": "Twice",
+                    "genre": "K-Pop"
+                },
+                "second": {
+                    "genre": "Indie Rock"
+                }
+            }
+        }
+    }
+}
